@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecasting</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+   <h1> Weather Forecast</h1>
+<div class="weather">
+    <div class="search">
+       <input type="text" name="city" placeholder="City Name" autocomplete="off" required class="weather" id="input">
+       <button onclick="getCityName(  )">Send Message</button>
+    </div>
+    <div class="forecast">
+        <h1 class="temp">22℃</h1>
+        <h2 class="cityName">New York</h2>
+         <div class="details">
+            <div class="col">
+                <div>
+                    <p>Humidity</p>
+                    <p class="humidity">50%</p>
+                </div>
+            </div>
+            <div class="col">
+                <div>
+                    <p>Wind Speed</p>
+                    <p class="wind">50km/h</p>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+
+  
+
+
+    <script src="weather.js"></script>
+
+</body>
+</html>
